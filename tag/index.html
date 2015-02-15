@@ -1,0 +1,12 @@
+---
+layout: default
+title: 'Tags'
+permalink: /tag/
+in_header: true
+---
+
+<h1>All our tags</h1>
+
+{% for tag in site.tags %}
+  <a href="/{{ tag[0] }}">{{ tag[0] }}</a>
+{% endfor %}
