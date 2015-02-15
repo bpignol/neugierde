@@ -53,7 +53,19 @@ a {
   list-style-type: none;
 }
 
+.post-list-post {
+  margin-bottom: 35px;
+}
+
 .post-list-post h2 {
+  text-align: center;
+}
+
+.post-list-post img {
+  width: 100%;
+}
+
+.post-list-post-tags {
   text-align: center;
 }
 
